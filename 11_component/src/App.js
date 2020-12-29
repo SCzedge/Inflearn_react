@@ -1,13 +1,10 @@
 import React, { useState } from "react";
-
-let color = "red";
+import Counter from "./Counter";
 export default function App() {
+  const [color, setColor] = useState("red");
+
   function onClick() {
-    color = "blue";
+    setColor("blue");
   }
-  return (
-    <button style={{ backgroundColor: color }} onClick={onClick}>
-      like
-    </button>
-  );
+  return <div>hi</div>;
 }
