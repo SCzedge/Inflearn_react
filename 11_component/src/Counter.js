@@ -1,0 +1,15 @@
+import React, { useState } from "react";
+import Title from "./Title";
+
+export default function Counter() {
+  const [count, setCount] = useState({value: 0});
+  function onClick() {
+    setCount({...count,value: count.value+1});
+  }
+  return (
+    <div>
+      {count.value > 0 && <Title title={`count : ${count.value }`} />}
+      <button onClick={onClick}>up</button>
+    </div>
+  );
+}
