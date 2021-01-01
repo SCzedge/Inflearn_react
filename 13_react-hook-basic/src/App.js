@@ -1,6 +1,6 @@
+import React from "react";
+import Batch from "./batch";
 
-function App() {
-  return null;
+export default function App() {
+  return <Batch/>
 }
-
-export default App;
