@@ -3,7 +3,7 @@ import { MAX_POS } from "../constant";
 
 export function getInitialTileList() {
   const tileList = [];
-
+   
   const tile1 = makeTile(tileList);
   tileList.push(tile1);
 
@@ -11,10 +11,8 @@ export function getInitialTileList() {
   tileList.push(tile2);
   return tileList;
 }
-export function checkCollision(tileList, tile) {
-  return tileList.some((item) => item.x === tile.x && item.y === tile.y);
-}
-let currentId=0;
+
+let currentId = 0;
 export function makeTile(tileList) {
   let tile;
   while (!tile || checkCollision(tileList, tile)) {
@@ -26,4 +24,7 @@ export function makeTile(tileList) {
     };
   }
   return tile;
+}
+export function checkCollision(tileList, tile) {
+  return tileList.some((item) => item.x === tile.x && item.y === tile.y);
 }

@@ -6,7 +6,7 @@ import useMoveTile from "../hook/useMoveTile";
 
 export default function Game() {
   const [tileList, setTileList] = useState(getInitialTileList);
-  //up,down, left,right
+  //up, down, left, right
   useMoveTile();
 
   return (
@@ -20,6 +20,7 @@ export default function Game() {
           </div>
         ))}
       </div>
+
       <div className="tile-container">
         {tileList.map(item => (
           <div key={item.id}
