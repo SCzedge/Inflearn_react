@@ -48,3 +48,5 @@
 - ref 속성값으로 자식요소에 접근하기
 ## 19_reactHook
 - 리액트 내장 훅
+## 20_recomended-component-style
+- 추천하는 컴포넌트 파일 작성법
