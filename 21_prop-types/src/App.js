@@ -1,5 +1,11 @@
+import React from 'react';
+import User from './User';
+
 
 export default function App() {
-  return <p>hello world</p>;
+  return <div>
+    <p>hello world</p>
+    <User onChangeTitle={()=> {}} male={true} type={'gold'} />
+  </div>;
 }
 
