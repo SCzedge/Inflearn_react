@@ -50,3 +50,7 @@
 - 리액트 내장 훅
 ## 20_recomended-component-style
 - 추천하는 컴포넌트 파일 작성법
+## 21_porp-types
+- 속성값 타입 정의하기: prop-types
+## 22_readable-conditional-render
+- 가독성을 높이는 조건부 렌더링 방법
