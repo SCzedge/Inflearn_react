@@ -54,3 +54,8 @@
 - 속성값 타입 정의하기: prop-types
 ## 22_readable-conditional-render
 - 가독성을 높이는 조건부 렌더링 방법
+## 23_reuseable-component
+- 재사용성을 고려한 컴포넌트 구분법
+## 24_real-useEffect
+- useEffect 실전활용법1
+- useEffect 실전활용법2
